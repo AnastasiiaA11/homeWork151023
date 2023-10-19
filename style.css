@@ -3,6 +3,7 @@ body {
 	overflow: scroll;
 }
 
+/*-----------------block__one----------*/
 .block__element {
 	display: flex;
 	flex-wrap: wrap;
@@ -48,6 +49,7 @@ p {
 	background-color: rgb(5, 4, 3);
 }
 
+/*-----------------block__two----------*/
 .block__main-two {
 	display: flex;
 	flex-wrap: wrap;
@@ -136,8 +138,133 @@ p {
 	margin-top: 10px;
 }
 
+/*-----------------block__three----------*/
 .block__temperature {
 	height: 410px;
 	width: 440px;
 	background-color: pink;
+}
+
+.block__infomation {
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.block__browser {
+	background-color: rgb(120, 120, 184);
+	margin-bottom: 10px;
+}
+
+.block__thing {
+	display: flex;
+	flex-wrap: wrap;
+	width: 225px;
+	height: 200px;
+
+}
+
+
+.block__battery,
+.block__headphones,
+.block__play,
+.block__fail {
+	width: 102.5px;
+	height: 95px;
+}
+
+.block__battery {
+	background-color: rgb(173, 23, 141);
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.block__headphones {
+	background-color: rgb(226, 43, 186);
+
+
+}
+
+.block__play {
+	background-color: rgb(219, 138, 202);
+	margin: 10px 10px 0px 10px;
+}
+
+.block__fail {
+	background-color: rgb(136, 6, 108);
+	margin-top: 10px;
+}
+
+
+.block__question {
+	background-color: rgba(236, 168, 41, 0.87);
+}
+
+.block__cloud {
+	background-color: rgb(71, 71, 245);
+}
+
+/*-----------------block__four----------*/
+
+.block__work-table {
+	background-color: green;
+	height: 410px;
+	width: 440px;
+	margin-left: 10px;
+}
+
+.block__notes {
+	display: flex;
+	flex-wrap: wrap;
+	height: 410px;
+	width: 450px;
+}
+
+.block__word {
+	margin: 10px;
+	background-color: rgb(143, 143, 43);
+}
+
+.block__wild {
+	background-color: rgb(143, 46, 43);
+	margin: 0px 10px 0px 10px;
+}
+
+.block__heard {
+	background-color: rgb(127, 184, 36);
+}
+
+/*-----------------block__five----------*/
+
+.block__plan-two {
+	margin-left: 10px;
+}
+
+.block__color {
+	background-color: rgb(211, 181, 181);
+}
+
+
+.block__color-two {
+	background-color: rgb(194, 16, 149);
+}
+
+.block__book {
+	background-color: aquamarine;
+	margin: 0px 10px 0px 10px;
+}
+
+.block__botle {
+	background-color: rgb(127, 204, 255);
+}
+
+.block__pen {
+	background-color: rgb(185, 255, 127);
+	margin-left: 10px;
+}
+
+.block__cream {
+	background-color: rgb(229, 127, 255);
+	margin-left: 10px;
 }
